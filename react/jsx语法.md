@@ -3,6 +3,8 @@
     
     var MyComp = React.createClass({/**/});
 
+    render: function(){ return <MyComp /> };
+
 ###渲染HTML，在JSX里使用小写字母开头的标签名
 
     var myDiv = <div className="cls1" />;  //div为小写标签
@@ -19,7 +21,7 @@
     
     var content = (
         <Nav>
-        {/*一般注释,用{}包起来*/}
+        {/*一般注释,用{}包起来*/}  
         <Person 
         /*
            多行注释 
