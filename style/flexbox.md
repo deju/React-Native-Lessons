@@ -32,8 +32,10 @@
 
 	  //测试结果见机器运行 render_div
 
-- 水平/垂直居中
-	用alignItems和justijfyContent处理
+- 水平/垂直居中    
+    
+
+    用alignItems和justijfyContent处理
 	
 	<Text style={[styles.text, styles.header]}>
         水平居中
@@ -43,7 +45,7 @@
       <View style={{backgroundColor: '#fefefe', width: 30, height: 30, borderRadius: 15}}/>
     </View>
 
-     <Text style={[styles.text, styles.header]}>
+    <Text style={[styles.text, styles.header]}>
         垂直居中
     </Text>
     <View style={{height: 100, backgroundColor: '#333333', justifyContent: 'center'}}>
