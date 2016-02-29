@@ -2,8 +2,9 @@
 参考https://segmentfault.com/a/1190000002658374
 
 - 默认宽度是100%
+    
 
-     <Text style={[styles.text, styles.header]}>
+    <Text style={[styles.text, styles.header]}>
 	      根节点上放一个元素，不设置宽度
 	  </Text>        
 
